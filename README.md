@@ -3,7 +3,7 @@ title: JS starting guide
 description: The best possible way to learn JavaScript
 ---
 
-# The language of the Web
+**The language of the Web**
 
 <p class="notice">Note: I assume you have some prior knowledge on command line and know how to use google and documentations for simple things.</p>
 
