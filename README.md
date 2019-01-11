@@ -47,8 +47,7 @@ If not already done, install a text editor / IDE **suited for web development**
 **The** linter.  
 Install the [ESLint](<https://eslint.org/>) package globally. Configure your editor to use it. VS Code for example has a marketplace extension to simplify the process.
 
-Use [this](<{{ "./resources/node.eslintrc.yml" | relative-url }}>) (_Work in Progress_) ESLint configuration for node projects and [this](<>) (_Work in Progress_) one for browser projects.  
-This programming style takes precedence over whatever practice is shown in the next resources.
+Configurations can be found [here](<{{ "./resources/ESLint" | relative-url }}>).
 
 ## Closing remarks
 
