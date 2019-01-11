@@ -1,3 +1,7 @@
+---
+title: JavaScript Resources
+---
+
 # A curated collection of resources to learn and stay up-to-date with JavaScript
 
 ## Everyone
