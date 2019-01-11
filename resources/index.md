@@ -1,8 +1,7 @@
 ---
 title: JavaScript Resources
+description: A curated collection of resources to learn and stay up-to-date with JavaScript
 ---
-
-# A curated collection of resources to learn and stay up-to-date with JavaScript
 
 ## Everyone
 
