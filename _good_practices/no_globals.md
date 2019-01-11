@@ -25,7 +25,7 @@ const nItems = 10;
 }
 ```
 
-In modules or userscripts.
+In modules or userscripts
 ```js
 const nItems = 10;  // modules have their own scope so it's fine
 ```
