@@ -1,5 +1,3 @@
-**The language of the Web**
-
 <p class="notice">Note: I assume you have some prior knowledge on command line and know how to use google and documentations for simple things.</p>
 
 A good environment fosters learning, so we are going to set one up. This will be all you need to properly code.
