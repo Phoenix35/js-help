@@ -77,8 +77,8 @@
           headerElm.classList.remove(hiddenClassTag);
         else if (wScrollDiff < 0) // scrolled down
           headerElm.classList[wScrollCurrent + window.innerHeight >= document.body.offsetHeight
-            ? "add" // scrolled to the very bottom; element slides in
-            : "remove" // scrolled down; element slides out
+            ? "remove" // scrolled to the very bottom; element slides in
+            : "add" // scrolled down; element slides out
           ](hiddenClassTag);
 
         wScrollBefore = wScrollCurrent;
