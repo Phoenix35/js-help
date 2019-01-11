@@ -3,3 +3,6 @@ title: JS starting guide
 description: The best possible way to learn JavaScript
 theme: jekyll-theme-midnight
 show_downloads: false
+
+collections:
+  - good_practices
