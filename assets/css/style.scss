@@ -20,7 +20,7 @@
     transition-property: transform;
 }
 
-#header--hidden {
+#header .--hidden {
     -webkit-transform: translateY( -100% );
     -ms-transform: translateY( -100% );
     transform: translateY( -100% );
