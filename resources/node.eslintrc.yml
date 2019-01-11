@@ -1,0 +1,475 @@
+---
+root: true
+parserOptions:
+  ecmaVersion: 2018
+env:
+  es6: true
+  node: true
+
+rules:
+  # Possible errors
+  for-direction: error
+  getter-return:
+  - error
+  - allowImplicit: true
+  no-async-promise-executor: error
+  no-await-in-loop: warn
+  no-compare-neg-zero: error
+  no-cond-assign:  error # - except-parens
+  no-console: warn
+  no-constant-condition: error
+  no-control-regex: error
+  no-debugger: error # Use breakpoints
+  no-dupe-args: error
+  no-dupe-keys: error
+  no-duplicate-case: error
+  no-empty: error
+  no-empty-character-class: error
+  no-ex-assign: error
+  no-extra-boolean-cast: error
+  no-extra-parens: error
+  no-extra-semi: error
+  no-func-assign: error
+  no-inner-declarations:
+  - error
+  - both
+  no-invalid-regexp: error
+  no-irregular-whitespace: warn
+  no-misleading-character-class: error
+  no-obj-calls: error
+  no-prototype-builtins: error
+  no-regex-spaces: error
+  no-sparse-arrays: error
+  no-template-curly-in-string: error
+  no-unexpected-multiline: error
+  no-unreachable: error
+  no-unsafe-finally: error
+  no-unsafe-negation: error
+  require-atomic-updates: warn
+  use-isnan: error
+  valid-jsdoc:
+  - error
+  - prefer:
+      arg: param
+      argument: param
+      returns: return
+    preferType: # uses typeof (lowercase) convention
+      Boolean: boolean
+      Number: number
+      Array: array
+      String: string
+      Symbol: symbol
+      Object: object
+    requireReturnType: true
+    requireParamType: true
+  valid-typeof: error
+
+  # Best practices
+  accessor-pairs: error
+  array-callback-return:
+  - error
+  - allowImplicit: true
+  block-scoped-var: error
+  class-methods-use-this: error
+  complexity:
+  - warn
+  - max: 10
+  consistent-return: off
+  curly:
+  - error
+  - multi-or-nest
+  - consistent
+  default-case: error
+  dot-location:
+  - error
+  - property
+  dot-notation:
+  - error
+  - allowPattern: ^[a-z]+(_[a-z]+)+$
+  eqeqeq:
+  - error
+  - always
+  - null: ignore
+  guard-for-in: error
+  max-classes-per-file: off
+  no-alert: warn
+  no-caller: error
+  no-case-declarations: warn # fallthrough behaviour
+  no-div-regex: error
+  no-else-return:
+  - error
+  - allowElseIf: false
+  no-empty-function: off # Hate incoming
+  no-empty-pattern: error
+  no-eq-null: off # see eqeqeq
+  no-eval: error
+  no-extend-native: error
+  no-extra-bind: error
+  no-extra-label: error
+  no-fallthrough: error # comment your js code when fallthrough is intentional
+  no-floating-decimal: error
+  no-global-assign: error
+  no-implicit-coercion:
+  - error
+  - allow:
+     - "!!"
+  no-implicit-globals: error
+  no-implied-eval: error
+  no-invalid-this: error
+  no-iterator: error
+  no-labels:
+  - error
+  - allowLoop: true
+  no-lone-blocks: error
+  no-loop-func: error
+  no-magic-numbers: off
+  no-multi-spaces: error
+  no-multi-str: error
+  no-new: error
+  no-new-func: error
+  no-new-wrappers: error
+  no-octal: error
+  no-octal-escape: error
+  no-param-reassign: warn
+  no-proto: error
+  no-redeclare: error
+  # no-restricted-properties: error
+  no-return-assign: error # - except-parens
+  no-return-await: warn
+  no-script-url: error
+  no-self-assign: error
+  no-self-compare: error
+  no-sequences: error
+  no-throw-literal: error
+  no-unmodified-loop-condition: error
+  no-unused-expressions:
+  - error
+  - allowShortCircuit: true
+    allowTernary: true
+    allowTaggedTemplates: true
+  no-unused-labels: error
+  no-useless-call: error
+  no-useless-concat: error
+  no-useless-escape: error
+  no-useless-return: error
+  no-void: error
+  no-warning-comments: warn
+  no-with: error
+  prefer-promise-reject-errors: error
+  radix:
+  - error
+  - as-needed
+  require-await: error
+  require-unicode-regexp: error
+  vars-on-top: error
+  wrap-iife:
+  - error
+  - inside
+  - functionPrototypeMethods: true
+  yoda:
+  - error
+  - never
+  - exceptRange: true
+
+  # Strict mode
+  strict:
+  - error
+  - global
+
+  # Variables
+  init-declarations: off
+  no-delete-var: error
+  no-label-var: error
+  no-restricted-globals: error
+  no-shadow:
+  - error
+  - builtinGlobals: true
+  no-shadow-restricted-names: error
+  no-undef: error
+  no-undef-init: error
+  no-undefined: off # see no-global-assign and no-shadow-restricted-names
+  no-unused-vars: error
+  no-use-before-define: error
+
+  # Node.js
+  callback-return:
+  - error
+  - - callback
+    - cb
+    - done
+    - next
+  global-require: error # eslint-disable if necessary
+  handle-callback-err: error
+  no-buffer-constructor: error
+  no-mixed-requires: error
+  no-new-require: error
+  no-path-concat: error
+  no-process-env: warn
+  no-process-exit: error
+  no-restricted-modules: off
+  no-sync: error
+
+  # Stylistic issues
+  array-bracket-newline:
+  - error
+  - multiline: true
+  array-bracket-spacing:
+  - error
+  - always
+  - singleValue: false
+    objectsInArrays: true
+    arraysInArrays: true
+  array-element-newline:
+  - error
+  - multiline: true
+  block-spacing: error
+  brace-style: error # 1tbs
+  camelcase: error
+  capitalized-comments:
+  - error
+  - always
+  - ignoreInlineComments: true
+    ignoreConsecutiveComments: true
+    ignorePattern: \w+\s-\s # jsdoc
+  comma-dangle:
+  - error
+  - arrays: always-multiline
+    objects: always-multiline
+    imports: always-multiline
+    exports: always-multiline
+    functions: always-multiline
+  comma-spacing: error
+  comma-style: error
+  computed-property-spacing: error
+  consistent-this: error
+  eol-last: error
+  func-call-spacing: error
+  func-name-matching:
+  - error
+  - always
+  - considerPropertyDescriptor: true
+  func-names:
+  - error
+  - as-needed
+  func-style: off
+  function-paren-newline:
+  - error
+  - multiline
+  id-blacklist: off
+  id-length: off
+  id-match: off # camelcase has you covered
+  implicit-arrow-linebreak: error
+  indent:
+  - error
+  - 2
+  - SwitchCase: 1
+    VariableDeclarator: {let: 2, const: 3}
+  jsx-quotes: off
+  key-spacing:
+  - error
+  - align: {}
+    multiLine: {}
+  keyword-spacing: error
+  line-comment-position: off
+  linebreak-style: off # Check your VCS behaviour
+  lines-around-comment:
+  - error
+  - beforeBlockComment: true
+    afterBlockComment: false
+    beforeLineComment: true
+    afterLineComment: false
+    allowBlockStart: true
+    allowBlockEnd: true
+    allowClassStart: true
+    allowClassEnd: true
+    allowObjectStart: true
+    allowObjectEnd: true
+    allowArrayStart: true
+    allowArrayEnd: true
+  lines-between-class-members: error
+  max-depth: off
+  max-len: off
+  max-lines: off
+  max-lines-per-function:
+  - error
+  - max: 150
+    skipBlankLines: true
+    skipComments: true
+    IIFEs: true
+  max-nested-callbacks: error
+  max-params: off
+  max-statements: off
+  max-statements-per-line:
+  - error
+  - max: 1
+  multiline-comment-style: off
+  multiline-ternary:
+  - error
+  - always-multiline
+  new-cap: error
+  new-parens: off
+  newline-per-chained-call: error
+  no-array-constructor: error
+  no-bitwise:
+  - error
+  - int32Hint: true
+  no-continue: off
+  no-inline-comments: off
+  no-lonely-if: error
+  no-mixed-operators: off
+  no-mixed-spaces-and-tabs: error
+  no-multi-assign: error
+  no-multiple-empty-lines:
+  - error
+  - max: 1
+    maxEOF: 1
+    maxBOF: 0
+  no-negated-condition: warn
+  no-nested-ternary: off
+  no-new-object: error
+  no-plusplus: off
+  no-restricted-syntax: off
+  no-tabs: error
+  no-ternary: off
+  no-trailing-spaces: error
+  no-underscore-dangle: error
+  # - allow:
+  #   foo_
+  no-unneeded-ternary: error
+  no-whitespace-before-property: error
+  nonblock-statement-body-position:
+  - error
+  - below # Hate 2
+  object-curly-newline:
+  - error
+  - ObjectExpression:
+      consistent: true
+    ObjectPattern:
+      consistent: true
+  object-curly-spacing:
+  - error
+  - always
+  - objectsInObjects: true
+    arraysInObjects: true
+  object-property-newline: error
+  one-var: off
+  one-var-declaration-per-line:
+  - error
+  - always
+  operator-assignment:
+  - error
+  - always
+  operator-linebreak:
+  - error
+  - after
+  - overrides:
+      ?: before
+      :: before
+  padded-blocks: off
+  padding-line-between-statements: # Verbatim from eslint-config-es
+  - error
+  - blankLine: always
+    prev: "*"
+    next: return
+  - blankLine: always
+    prev:
+    - const
+    - let
+    - var
+    next: "*"
+  - blankLine: any
+    prev:
+    - const
+    - let
+    - var
+    next:
+    - const
+    - let
+    - var
+  - blankLine: always
+    prev: directive
+    next: "*"
+  - blankLine: any
+    prev: directive
+    next: directive
+  prefer-object-spread: error
+  quote-props:
+  - error
+  - as-needed
+  quotes: error
+  require-jsdoc: warn
+  semi: error
+  semi-spacing: error
+  semi-style: error
+  sort-keys: off
+  sort-vars:
+  - error
+  - ignoreCase: true
+  space-before-blocks: error
+  space-before-function-paren: error
+  space-in-parens: error
+  space-infix-ops: error
+  space-unary-ops: error
+  spaced-comment: error
+  switch-colon-spacing: error
+  template-tag-spacing: error
+  unicode-bom: error
+  wrap-regex: off
+
+  # ECMAScript 6
+  arrow-body-style:
+  - error
+  - as-needed
+  arrow-parens:
+  - error
+  - as-needed
+  - requireForBlockBody: true # Hate 3
+  arrow-spacing: error
+  constructor-super: error
+  generator-star-spacing: error
+  no-class-assign: error
+  no-confusing-arrow:
+  - error
+  - allowParens: true
+  no-const-assign: error
+  no-dupe-class-members: error
+  no-duplicate-imports: error
+  no-new-symbol: error
+  no-restricted-imports: off
+  no-this-before-super: error
+  no-useless-computed-key: error
+  no-useless-constructor: error
+  no-useless-rename: error
+  no-var: error
+  object-shorthand:
+  - error
+  - always
+  - ignoreConstructors: true
+  prefer-arrow-callback:
+  - error
+  - allowNamedFunctions: true
+  prefer-const:
+  - error
+  - ignoreReadBeforeAssign: true
+  prefer-destructuring:
+  - warn
+  - array: false
+  prefer-numeric-literals: error
+  prefer-rest-params: warn
+  prefer-spread: warn # [[Call]] and [[Construct]]
+  prefer-template: error
+  require-yield: warn
+  rest-spread-spacing: error
+  sort-imports: # Verbatim from eslint-config-es
+  - error
+  - ignoreCase: true
+    memberSyntaxSortOrder:
+    - single
+    - multiple
+    - all
+    - none
+  symbol-description: error
+  template-curly-spacing: error
+  yield-star-spacing:
+  - error
+  - before # Hate 4
