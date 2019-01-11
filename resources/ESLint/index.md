@@ -1,11 +1,11 @@
 ---
-title: [ESLint](<https://eslint.org/>) config
+title: ESLint config
 description: ESLint configuration files
 ---
 
 # Global
 
-This is an archive (.zip file) with a pre-defined structure containing ESLint configurations for every environment.
+This is an archive (.zip file) with a pre-defined structure containing [ESLint](<https://eslint.org/>) configurations for every environment.
 
 (_WIP)
 
