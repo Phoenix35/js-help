@@ -7,7 +7,7 @@ description: ESLint configuration files
 
 This is an archive (.zip file) with a pre-defined structure containing [ESLint](<https://eslint.org/>) configurations for every environment.
 
-(_WIP)
+(_WIP_)
 
 # Standalone configurations
 
