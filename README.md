@@ -49,12 +49,12 @@ If not already done, install a text editor / IDE **suited for web development**
 **The** linter.  
 Install the [ESLint](<https://eslint.org/>) package globally. Configure your editor to use it. VS Code for example has a marketplace extension to simplify the process.
 
-Use [this](<{{ "/resources/node.eslintrc.yml" | relative-url }}>) (_Work in Progress_) ESLint configuration for node projects and [this](<>) (_Work in Progress_) one for browser projects.  
+Use [this](<{{ "./resources/node.eslintrc.yml" | relative-url }}>) (_Work in Progress_) ESLint configuration for node projects and [this](<>) (_Work in Progress_) one for browser projects.  
 This programming style takes precedence over whatever practice is shown in the next resources.
 
 ## Closing remarks
 
-You are set to start learning JS. You can now go to {{ "/resources/" | relative-url }}
+You are set to start learning JS. You can now go to {{ "./resources/" | relative-url }}
 
 Once you've finished both tutorials, you can follow on [good practices](<https://gist.github.com/Phoenix35/a80ee9a63c39b581dd8f674108fe5736/>).  
 You may notice you already apply a lot of them simply because you followed the aforementioned tutorials and the ESLint configuration that was given.
