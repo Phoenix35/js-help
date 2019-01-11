@@ -16,7 +16,7 @@ If you use a proper ESLint configuration file, you should already be notified fo
 {% endfor %}
 
 {% for practice in sorted_practices %}
-#{{ practice.title }}
+# {{ practice.title }}
 
 {{ practice.content }}
 
