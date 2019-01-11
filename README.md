@@ -55,4 +55,4 @@ This programming style takes precedence over whatever practice is shown in the n
 ## Closing remarks
 
 **Congratulations**! You are now set to start learning JS in a good environment for your projects.  
-Your next step is to go to the [resources](<{{ "./resources/" | relative-url }}>) section. Have fun :smile:
+Your next step is to go to the [resources](<{{ "./resources/" | relative-url }}>) section. Have fun ☺️
