@@ -10,22 +10,27 @@ Do not needlessly pollute the global namespace.
 In browsers
 ```js
 /* BAD */
+"use strict";
 const nItems = 10;
 // rest of your code here
 
 /* GOOD */
+"use strict";
 (function () {
   const nItems = 10;
   // rest of your code here
 })();
 
-/* GOOD alternative if in strict mode */
+/* GOOD alternative */
+"use strict";
 {
-
+const nItems = 10;
+// rest of your code here
 }
 ```
 
 In modules or userscripts
 ```js
 const nItems = 10;  // modules have their own scope so it's fine
+// rest of your code here
 ```
