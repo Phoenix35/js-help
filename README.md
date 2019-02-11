@@ -28,6 +28,8 @@ This will be your go-to reference, make sure to create an easily accessible shor
 This program is the desktop version of [DevDocs](<https://devdocs.io/>).  
 There is no need anymore to search through MDN, the node.js API, or kangax table/caniuse for example. This collects it all and delivers it in one place in a consistent formatting.
 
+Developers using Apple products may be interested in [Dash](<https://kapeli.com/dash>) as a powerful alternative.
+
 ## Node.js
 
 If not already done, install [Node.js](<https://nodejs.org/en/download/>). I prefer the latest version but you can install LTS if you want (v10 "Dubnium" as of writing).  
