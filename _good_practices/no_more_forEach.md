@@ -3,7 +3,7 @@ title: No more forEach
 position: 5
 ---
 
-**Ban `.forEach()`**! There are [several](<https://gist.github.com/Phoenix35/bf6adbef90cdbc401f19920d1b97a00b#file-for-loops-js-L42>) [rationale](<https://jeremyliberman.com/2019/02/14/the-pitfalls-of-enumerating-with-foreach.html>) for this.
+**Ban `.forEach()`**! There are, [several](<https://gist.github.com/Phoenix35/bf6adbef90cdbc401f19920d1b97a00b#file-for-loops-js-L42>), [rationale](<https://jeremyliberman.com/2019/02/14/the-pitfalls-of-enumerating-with-foreach.html>) for this.
 
 ## Value only
 ```js
