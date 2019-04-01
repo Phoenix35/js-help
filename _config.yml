@@ -6,3 +6,4 @@ show_downloads: false
 
 collections:
   - good_practices
+  - faq
