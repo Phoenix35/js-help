@@ -1,5 +1,5 @@
 ---
-title: What should I use for the frontend: Angular, React, Vue.js, others?
+title: Angular, React, Vue.js, others?
 position: 3
 ---
 
