@@ -1,6 +1,6 @@
 ---
 title: I want to learn front-end. Where would I start?
-position: 2
+position: 0
 ---
 
 Make sure you are at least intermediate in JavaScript (see [Resources](<{{ "/resources/" | absolute_url }}>)). Learn some [HTML](<https://htmldog.com/guides/html/>)/[CSS](<https://htmldog.com/guides/css/>).
