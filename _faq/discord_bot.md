@@ -1,6 +1,6 @@
 ---
 title: I want to develop a discord bot.
-position: 4
+position: 0
 ---
 
 If you are just beginning in JS, only some parts of [The Modern JavaScript tutorial](<http://javascript.info/>) are required:
