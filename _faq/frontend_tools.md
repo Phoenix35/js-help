@@ -1,6 +1,6 @@
 ---
 title: Angular, React, Vue.js, others?
-position: 3
+position: 0
 ---
 
 As a hobby? My first choice would be [Vue.js](<https://vuejs.org/>). Otherwise [React](<https://reactjs.org/>).
