@@ -28,7 +28,7 @@ Work in progress (WIP)
 - [JavaScript. The Core (**2nd edition**)](<http://dmitrysoshnikov.com/ecmascript/javascript-the-core-2nd-edition/>)
 - [You don't know JS](<https://github.com/getify/You-Dont-Know-JS/>)  
 "but wait I heard it's a good book for beginners?" Only if you know what is in ES6+ and what is not, so that you can discard outdated content and advice. That's why I put it in advanced.
-- Advances on the [TC39 proposals](<https://prop-tc39.now.sh/>)
+- Advances on the [TC39 proposals](<https://github.com/tc39/proposals/>)
 - Streams in [browsers](<https://developer.mozilla.org/en-US/docs/Web/API/Streams_API>) or [node.js](<https://www.freecodecamp.org/news/node-js-streams-everything-you-need-to-know-c9141306be93/>). [Additional reading](<https://nodejs.org/en/docs/guides/backpressuring-in-streams/>) for both
 
 ## Expert
