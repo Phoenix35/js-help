@@ -8,7 +8,7 @@ Use an evergreen browser: [Mozilla Firefox](<https://www.mozilla.org/en-US/firef
 
 ## Documentation
 
-<p class="notice">DevDocs has not updated its JS info since 2018.</p>
+<p class="notice">DevDocs has not updated its JS info since 2018. Use [MDN](<https://developer.mozilla.org/en-US/docs/Learn>) search functionality if you don't find something.</p>
 
 Install [DevDocs desktop](<https://devdocs.egoist.moe/>) (by Egoist).  
 In "Preferences", enable following documentation
