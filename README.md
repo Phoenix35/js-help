@@ -8,6 +8,8 @@ Use an evergreen browser: [Mozilla Firefox](<https://www.mozilla.org/en-US/firef
 
 ## Documentation
 
+<p class="notice">DevDocs has not updated its JS info since 2018.</p>
+
 Install [DevDocs desktop](<https://devdocs.egoist.moe/>) (by Egoist).  
 In "Preferences", enable following documentation
   - CSS
@@ -44,10 +46,7 @@ If not already done, install a text editor / IDE **suited for web development**
 
 ## ESLint
 
-**The** linter.  
-Install the [ESLint](<https://eslint.org/>) package globally. Configure your editor to use it. VS Code for example has a marketplace extension to simplify the process.
-
-Configurations can be found [here](<{{ "./resources/ESLint" | relative-url }}>).
+Follow [this link](<https://github.com/Phoenix35/eslint-config>).
 
 ## Closing remarks
 
