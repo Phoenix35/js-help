@@ -10,7 +10,7 @@ function fetchJSON (url) {
 }
 
 function updatePara (url) {
-  fetchJSON.then(data => {
+  fetchJSON(url).then(data => {
     const { title, text }  = data;
 
     paragraph.dataset.title = title;
