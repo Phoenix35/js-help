@@ -25,7 +25,7 @@ If you have ES5.1 knowledge and want to be up-to-date [Exploring ES6](<http://ex
 At this level you HAVE to know how to use callbacks and promises.
 
 - [Dr. Axel Rauschmayer blog](<http://2ality.com/>)
-- Front-end: [HTML](<https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML>), [CSS](<https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps>); [HTML forms](<https://developer.mozilla.org/en-US/docs/Learn/Forms>); [Key performance guides](<https://developer.mozilla.org/en-US/docs/Learn/Performance/Web_Performance_Basics#Key_performance_guides>) and [responsive images](<https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images>)
+- Front-end: [HTML](<https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML>), [CSS](<https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps>); [HTML forms](<https://developer.mozilla.org/en-US/docs/Learn/Forms>); [Key performance guides](<https://developer.mozilla.org/en-US/docs/Web/Performance#Beginners_tutorials>) and [responsive images](<https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images>)
 - [node.js](<https://nodejs.dev/>)
 
 ## Advanced
