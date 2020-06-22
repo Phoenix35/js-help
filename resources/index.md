@@ -25,7 +25,7 @@ If you have ES5.1 knowledge and want to be up-to-date [Exploring ES6](<http://ex
 At this level you HAVE to know how to use callbacks and promises.
 
 - [Dr. Axel Rauschmayer blog](<http://2ality.com/>)
-- Front-end: [HTML](<https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML>), [CSS](<https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps>); [HTML forms](<https://developer.mozilla.org/en-US/docs/Learn/Forms>); [Key performance guides](<https://developer.mozilla.org/en-US/docs/Web/Performance#Beginners_tutorials>) and [responsive images](<https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images>)
+- Front-end: [HTML](<https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML>), [CSS](<https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps>); [HTML forms](<https://developer.mozilla.org/en-US/docs/Learn/Forms>); [Key performance guides](<https://developer.mozilla.org/en-US/docs/Learn/Performance/Web_Performance_Basics>) and [responsive images](<https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images>)
 - [node.js](<https://nodejs.dev/>)
 
 ## Advanced
@@ -33,7 +33,7 @@ At this level you HAVE to know how to use callbacks and promises.
 - [JavaScript. The Core (**2nd edition**)](<http://dmitrysoshnikov.com/ecmascript/javascript-the-core-2nd-edition/>)
 - Advances on the [TC39 proposals](<https://github.com/tc39/proposals/>)
 - Streams in [browsers](<https://developer.mozilla.org/en-US/docs/Web/API/Streams_API>) or [node.js](<https://www.freecodecamp.org/news/node-js-streams-everything-you-need-to-know-c9141306be93/>). [Additional reading](<https://nodejs.org/en/docs/guides/backpressuring-in-streams/>) for both
-- Front-end: [tutorial on performance](<https://developer.mozilla.org/en-US/docs/Learn/Performance/Web_Performance_Basics#Beginners_tutorials>), [the Performance API](<https://developer.mozilla.org/en-US/docs/Web/Performance#Other_documentation>); [accessibility (a11y)](<https://developer.mozilla.org/en-US/docs/Learn/Accessibility>);  [All-in-one](<https://frontendmasters.com/books/front-end-handbook/2019/>)
+- Front-end: [tutorial on performance](<https://developer.mozilla.org/en-US/docs/Web/Performance#Beginners_tutorials>), [the Performance API](<https://developer.mozilla.org/en-US/docs/Web/Performance#Other_documentation>); [accessibility (a11y)](<https://developer.mozilla.org/en-US/docs/Learn/Accessibility>);  [All-in-one](<https://frontendmasters.com/books/front-end-handbook/2019/>)
 
 ## Expert
 
