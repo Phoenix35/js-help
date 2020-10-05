@@ -5,7 +5,7 @@ description: A curated collection of resources to learn and stay up-to-date with
 
 ## Everyone
 
-- [DevDocs](<https://devdocs.io/>); also available as a [desktop app](<https://devdocs.egoist.moe/>).
+- [DevDocs](<https://devdocs.io/>); also available as a [desktop app](<https://github.com/egoist/devdocs-desktop/releases>).
 - [ESLint config](<https://github.com/Phoenix35/eslint-config>)
 
 ## Beginners
