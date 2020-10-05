@@ -18,11 +18,18 @@ _hasOwnProperty.call(someObj, "prop");
 ```
 ```js
 /* BAD */
-const arr = ([]).slice.call(arrayLikeObj);  // Intermediate empty array
+const arr = ([]).slice.call(iterable);  // Intermediate empty array
 
 /* GOOD */
-// if iterable, e.g. a NodeList
-const arr = Array.from(arrayLikeObj);
-// if not
-const arr = Array.prototype.slice.call(arrayLikeObj);
+// If you don't map
+const arr = [...iterable];
+// If you map
+const arr = Array.from(iterable, mapperFn);
+
+// if array-like and not iterable
+const arrayLikeObjLength = arrayLikeObj.length;
+const arr = [];
+
+for (let i = 0; i < arrayLikeObjLength; ++i)
+  arr.push(arrayLikeObj[i]);
 ```
