@@ -10,7 +10,7 @@ Use an evergreen browser: [Mozilla Firefox](<https://www.mozilla.org/en-US/firef
 
 <p class="notice">DevDocs has not updated its JS info since 2018.</p> Use [MDN](<https://developer.mozilla.org/en-US/docs/Learn>) search functionality if you don't find something.
 
-Install [DevDocs desktop](<https://devdocs.egoist.moe/>) (by Egoist).  
+Install [DevDocs desktop](<https://github.com/egoist/devdocs-desktop/releases>) (by Egoist).  
 In "Preferences", enable following documentation
   - CSS
   - DOM
