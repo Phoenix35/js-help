@@ -3,9 +3,39 @@ title: No more forEach
 position: 5
 ---
 
-**Ban `.forEach()`**! There are, [several](<https://gist.github.com/Phoenix35/bf6adbef90cdbc401f19920d1b97a00b#file-for-loops-js-L42>), [rationale](<https://jeremyliberman.com/2019/02/14/the-pitfalls-of-enumerating-with-foreach.html>) for this.
+**Ban `.forEach()`**! It only comes with downsides.
 
-## Value only
+- Lack of control flow.  
+  `continue;` can be simulated by `return;`, but `break` is not possible
+- Not async friendly.  
+  ```js
+  let counter = 0;
+  const nums = [ 2, 8, 10 ];
+  nums.forEach(async (num) => {
+    await something();
+    counter++;
+  });
+  console.log(counter); // 0
+  ```  
+  ```js
+  const urls = [ "https://remote.com/1", "https://remote.com/2", "https://remote.com/3", ... ];
+  urls.forEach(async (url) => {
+    const response = await fetch(url); // This is doing N CONCURRENT requests, you are spamming the server
+    doStuff(response);
+  });
+  ```
+- Looks like functional programming, while it is anything but.  
+  The **purpose** of `.forEach` is **to have** side-effects
+- Doesn't get to the point.  
+  All the other Higher-Order Functions (HOFs) tell you what they do in their names. `.forEach` does everything so nothing
+- Lends itself to misuse.  
+  - `return something;` doesn't work.
+  - People may want to chain it, like the other HOFs.
+  - `async`ing the callback will bite you
+- The only time you _would_ have a reason to use `.forEach` – when you want a side-effect – it is superseded by `for-of`.  
+  It is compatible with any iterable instead of being a method of a select few, and has none of the downsides listed above
+
+## Act on value only
 ```js
 /* BAD */
 iterable.forEach((value) => {
@@ -20,13 +50,13 @@ for (const value of iterable) {
 for (const value of iterable.values()) {
   
 }
-// or
+// if values of an object
 for (const value of Object.values(obj)) {
   
 }
 ```
 
-## Key only
+## Act on index/key only
 ```js
 /* BAD */
 iterable.forEach((_, key) => {
@@ -37,13 +67,13 @@ iterable.forEach((_, key) => {
 for (const key of iterable.keys()) {
   
 }
-// or
+// if keys of an object
 for (const key of Object.keys(obj)) {
   
 }
 ```
 
-## Key and value
+## Act on both key and value
 ```js
 /* BAD */
 iterable.forEach((value, key) => {
@@ -51,11 +81,11 @@ iterable.forEach((value, key) => {
 });
 
 /* GOOD */
-for (const [key, value] of iterable.entries()) {
+for (const [ key, value ] of iterable.entries()) {
   
 }
-// or
-for (const [key, value] of Object.entries(obj)) {
+// if an object
+for (const [ key, value ] of Object.entries(obj)) {
   
 }
 ```
@@ -76,7 +106,7 @@ Eloquent JavaScript devoted [an entire chapter](<https://eloquentjavascript.net/
 We're going to see what can be used instead of the dreaded forEach.
 
 ### Output an array the same length as the starting array
-Also called a transform, or a mapping operation. Well, JavaScript has `.map()` to do exactly this.
+`.map` Also called a transform, or a mapping operation.
 ```js
 /* BAD */
 const oldPlus2 = [];
@@ -89,8 +119,8 @@ oldArr.forEach((number) => {
 const oldPlus2 = oldArr.map((number) => number + 2);
 ```
 
-### Filter entries
-`.filter()` If you want a new array that selects entries based on a condition.
+### Select entries
+`.filter()` If you want a new array with entries selected by a predicate.
 ```js
 /* BAD */
 const onlyEvens = [];
@@ -105,7 +135,7 @@ const onlyEvens = oldArr.filter((integer) => integer % 2 === 0);
 ```
 
 ### Check if a condition is met by _at least_ one entry
-`.some()` To check if whether at least one element (early exit) in the array passes the test implemented by the provided function.  
+`.some()` To check if whether at least one element (early exit) in the array passes the predicate.  
 **/!\ This example is a tad more complicated /!\\**
 ```js
 const authzCreds = [
@@ -275,9 +305,4 @@ updateLocalVersionFrom(remoteDB);
 
 ## Summary
 Sharp minds might have noticed that all higher-order functions can actually be written with `for...of` inside blocks instead.  
-In my opinion, intent can usually be better expressed with higher-order functions than with loops.  
-Use forEach if you're experienced enough and absolutely know what you're doing.
-
-If you're returning something in a forEach callback, you don't know what you're doing.  
-If you're chaining forEach after map or filter, you don't know what you're doing; reduce is an ambiguous case, you most likely don't know what you're doing.  
-If you're using an async callback function, you most likely don't know what you're doing (see rationale).
+In my opinion, intent can usually be better expressed with higher-order functions than with loops.
