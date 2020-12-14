@@ -304,5 +304,8 @@ updateLocalVersionFrom(remoteDB);
 ---
 
 ## Summary
+`.forEach` is useless
+
+
 Sharp minds might have noticed that all higher-order functions can actually be written with `for...of` inside blocks instead.  
 In my opinion, intent can usually be better expressed with higher-order functions than with loops.
