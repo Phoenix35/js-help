@@ -35,6 +35,8 @@ position: 5
 - The only time you _would_ have a reason to use `.forEach` – when you want a side-effect – it is superseded by `for-of`.  
   It is compatible with any iterable instead of being a method of a select few, and has none of the downsides listed above
 
+This feeling is [backed up by an authority](<https://2ality.com/2021/01/looping-over-arrays.html>)
+
 ## Act on value only
 ```js
 /* BAD */
