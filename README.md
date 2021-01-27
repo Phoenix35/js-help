@@ -32,7 +32,7 @@ Developers using Apple products may be interested in [Dash](<https://kapeli.com/
 
 ## Node.js
 
-If not already done, install [Node.js](<https://nodejs.org/en/download/>). I prefer the latest version but you can install LTS if you want (v12 "Erbium" as of writing).  
+If not already done, install [Node.js](<https://nodejs.org/en/download/>). I prefer the latest version but you can install LTS if you want (v14 "Fermium" as of writing).  
 You should spend some time learning how to use node.js and particularly npm after you've become familiar with JavaScript proper.
 
 ## Editor
@@ -44,7 +44,7 @@ If not already done, install a text editor / IDE **suited for web development**
 
 ## ESLint
 
-Follow [this link](<https://github.com/Phoenix35/eslint-config>).
+Last but not least, use a linter with a proper lint config: follow [this link](<https://github.com/Phoenix35/eslint-config>).
 
 ## Closing remarks
 
