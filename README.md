@@ -40,7 +40,7 @@ You should spend some time learning how to use node.js and particularly npm afte
 If not already done, install a text editor / IDE **suited for web development**
   - Free text editor: [VS Code](<https://code.visualstudio.com/>) or [VS Codium](<https://github.com/VSCodium/vscodium#vscodium>) for the ones that don't like telemetry
   - "Winrar free" text editor: [Sublime Text](<https://www.sublimetext.com/>)
-  - Paid IDE: [Webstorm](<https://www.jetbrains.com/webstorm/>) (PyCharm Pro edition also includes WebStorm)
+  - Paid IDE: [Webstorm](<https://www.jetbrains.com/webstorm/>) (PhpStorm, as well as PyCharm Pro edition, include WebStorm too)
 
 ## ESLint
 
