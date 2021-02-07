@@ -9,7 +9,8 @@ This allows:
 - download in parallel with the rest of the page.  
   If inline, the HTML bytes are downloaded and rendered later, because the browser has to parse JS in the same thread before
 - parsing at the correct time (after your DOM is loaded)
-```js
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,6 +37,7 @@ This allows:
 
 Second, your HTML MUST NOT contain `on*` attributes. Simply because if you follow point #1, it doesn't work.  
 Modules have their own scope, so the listener would be invisible to HTML
+
 ```html
 <button onclick="submitForm();">Submit</button>
 ```
@@ -65,7 +67,7 @@ function submitForm () {
 })();
 ```
 IF you don't want to follow best practices for whatever reason, here are the ways to still do it correctly without `on*` in HTML
-```js
+```html
 <button class="submit-button">Submit</button><!-- or any other way to identify the element -->
 ```
 ```js
