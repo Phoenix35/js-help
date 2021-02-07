@@ -18,19 +18,24 @@ This allows:
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Amazing title</title>
   <link rel=stylesheet href="path/to/sheet.css">
+
   <!-- IDEALLY -->
   <script type=module src="path/to/module.js"></script>
+
   <!-- OR -->
   <script defer src="path/to/script.js"></script>
+
 </head>
 <body>
-...
+
 <!-- DO NOT -->
 <script src="path/to/script.js"></script>
+
 <!-- NEVER -->
 <script>
 /* JS code inside HTML */
 </script>
+
 </body>
 </html>
 ```
@@ -72,13 +77,18 @@ IF you don't want to follow best practices for whatever reason, here are the way
 <!-- or any other way to identify the element -->
 ```
 ```js
+const myButton = document.querySelector(".submit-button"); // change the selector accordingly
+
 function submitForm (evt) {
 
 }
 
-const myButton = document.querySelector(".submit-button"); // change the selector accordingly
-
 myButton.addEventListener("click", submitForm, options);
 // See <https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#parameters> for the `options` argument
+
+// OR an anonymous function works too if you don't intend to reuse it
+myButton.addEventListener("click", (evt) => {
+
+}, options);
 ```
 There are [several](<https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#why_use_addeventlistener>) reasons to [use](<https://javascript.info/introduction-browser-events#addeventlistener>) `.addEventListener`.
