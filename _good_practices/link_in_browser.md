@@ -48,7 +48,7 @@ const myButton = document.querySelector("button");
 
 // Not in the scope of HTML.
 // An error will trigger on button click to say it's undefined
-function submitForm () {
+function submitForm (evt) {
 
 }
 ```
@@ -61,20 +61,24 @@ IF you use regular scripts with the `defer` attribute in the `<script>` tag, the
 const myButton = document.querySelector("button");
 
 // Same problem. Not in scope.
-function submitForm () {
+function submitForm (evt) {
 
 }
 })();
 ```
 IF you don't want to follow best practices for whatever reason, here are the ways to still do it correctly without `on*` in HTML
 ```html
-<button class="submit-button">Submit</button><!-- or any other way to identify the element -->
+<button class="submit-button">Submit</button>
+<!-- or any other way to identify the element -->
 ```
 ```js
+function submitForm (evt) {
+
+}
+
 const myButton = document.querySelector(".submit-button"); // change the selector accordingly
 
-myButton.addEventListener("click", (evt) => {
-
-}, options); // See <https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#parameters> for the `options` argument
+myButton.addEventListener("click", submitForm, options);
+// See <https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#parameters> for the `options` argument
 ```
 There are [several](<https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#why_use_addeventlistener>) reasons to [use](<https://javascript.info/introduction-browser-events#addeventlistener>) `.addEventListener`.
