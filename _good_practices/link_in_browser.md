@@ -44,6 +44,7 @@ Second, your HTML MUST NOT contain `on*` attributes. Simply because if you follo
 Modules have their own scope, so the listener would be invisible to HTML
 
 ```html
+<!-- BAD -->
 <button onclick="submitForm();">Submit</button>
 ```
 ```js
@@ -71,8 +72,9 @@ function submitForm (evt) {
 }
 })();
 ```
-IF you don't want to follow best practices for whatever reason, here are the ways to still do it correctly without `on*` in HTML
+Use `.addEventListener` in JS instead
 ```html
+<!-- GOOD -->
 <button class="submit-button">Submit</button>
 <!-- or any other way to identify the element -->
 ```
