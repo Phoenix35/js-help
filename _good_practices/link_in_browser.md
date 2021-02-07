@@ -86,11 +86,11 @@ function submitForm (evt) {
 }
 
 myButton.addEventListener("click", submitForm, options);
-// See <https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#parameters> for the `options` argument
 
 // OR an anonymous function works too if you don't intend to reuse it
 myButton.addEventListener("click", (evt) => {
 
 }, options);
 ```
+The `options` argument is detailed [here](<https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#parameters>).  
 There are [several](<https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#why_use_addeventlistener>) reasons to [use](<https://javascript.info/introduction-browser-events#addeventlistener>) `.addEventListener`.
