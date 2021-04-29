@@ -13,7 +13,7 @@ Every JS file in the **browser** that is not an [ES6 module](<https://javascript
 "use strict";
 
 // rest of your code here
-)();
+})();
 ```
 ECMAScript Modules are already in strict mode so there is no need for the II(A)FE nor this directive.
 
