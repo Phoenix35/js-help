@@ -15,8 +15,8 @@ Here are the quick steps to solve this:
     Don't worry, it's the [official build tools](<https://github.com/Microsoft/nodejs-guidelines/blob/master/windows-environment.md#environment-setup-and-configuration>)
 1. When installed, from the same elevated prompt
     `npm config set msvs_version 2015`
-1. `where python`
-    Copy this path and use it in the next command
+1. `where python`  
+    Copy the resulting path and use it in the next command
 1. `npm config set python C:\\Python39\\python.exe` (or your actual path, you get it)
 
 
