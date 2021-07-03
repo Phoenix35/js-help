@@ -1,5 +1,5 @@
 ---
-title: I can't build a package on Windows
+title: I cannot build a package on Windows
 position: 0
 ---
 
