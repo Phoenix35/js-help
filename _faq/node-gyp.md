@@ -13,7 +13,7 @@ Here are the quick steps to solve this:
 1. You will now have to do some commands. From an elevated terminal (so with admin rights)  
     `npm i -g --production windows-build-tools --vs2015`  
     Don't worry, it's the [official build tools](<https://github.com/Microsoft/nodejs-guidelines/blob/master/windows-environment.md#environment-setup-and-configuration>)
-1. When installed, from the same elevated prompt
+1. When installed (it may take a while), from the same elevated prompt  
     `npm config set msvs_version 2015`
 1. `where python`  
     Copy the resulting path and use it in the next command
