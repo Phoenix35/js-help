@@ -1,7 +1,9 @@
 # Global settings
 title: JS starting guide
 description: The best possible way to learn JavaScript
-theme: jekyll-theme-midnight
+remote_theme: pages-themes/midnight@v0.2.0
+plugins:
+- jekyll-remote-theme
 show_downloads: false
 
 collections:
