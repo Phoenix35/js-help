@@ -27,3 +27,7 @@
     transform: translateY( -100% );
 }
 // Make header disappear>
+
+#header nav {
+  background: unset; 
+}
