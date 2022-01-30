@@ -11,8 +11,7 @@ Use an evergreen browser: [Mozilla Firefox](<https://www.mozilla.org/en-US/firef
 Install [DevDocs desktop](<https://github.com/egoist/devdocs-desktop/releases>) (by Egoist).  
 In "Preferences", enable following documentation
   - CSS
-  - DOM
-  - DOM Events
+  - Web APIs
   - ESLint
   - Git
   - HTML
