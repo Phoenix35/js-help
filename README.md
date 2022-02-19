@@ -21,7 +21,7 @@ In "Preferences", enable following documentation
   - npm
   - Support tables
 
-In "Offline Data", make sure to install all the documentation you enabled. It will be around 100 MB of data.  
+In "Offline Data", make sure to install all the documentation you enabled. It will be around 160 MB of data.  
 This will be your go-to reference, make sure to create an easily accessible shortcut to use it!
 
 This program is the desktop version of [DevDocs](<https://devdocs.io/>).  
@@ -31,7 +31,7 @@ Developers using Apple products may be interested in [Dash](<https://kapeli.com/
 
 ## Node.js
 
-If not already done, install [Node.js](<https://nodejs.org/en/download/>). I prefer the latest version but you can install LTS if you want (v14 "Fermium" as of writing).  
+If not already done, install [Node.js](<https://nodejs.org/en/download/>). I prefer the latest version but you can install LTS if you want (v16 "Gallium" as of writing).  
 You should spend some time learning how to use node.js and particularly npm after you've become familiar with JavaScript proper.
 
 ## Editor
