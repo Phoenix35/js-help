@@ -9,17 +9,12 @@ position: 0
 4. <https://docs.npmjs.com/cli/v8/using-npm/developers>
 5. <https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry>
 
-**Relevant info on a package page**  
-If it's __deprecated__, don't use it.  
-<https://imgur.com/dBN6gVc>  
-  
-Date of __Last publish__  
-<https://imgur.com/PQJiC0G>  
-A few months is generally fine.  
-A few years either means
- - the package is very small and doesn't need to be updated because it does its job without issues
- - the package is unmaintained
-Check the age of pull requests/issues on its Github to see if the author(s) are responsive.
+**Relevant info on a package page**  <https://imgur.com/PQJiC0G>  
+- Date of __Last publish__. A few months is generally fine. A few years either means
+   * the package is very small and doesn't need to be updated because it does its job without issues
+   * the package is unmaintained
+  Check the age of pull requests/issues on its Github to see if the author(s) are responsive.
+- If it's __deprecated__, don't use it.  <https://imgur.com/dBN6gVc>
 
 Check if its **license** matches your needs (see License)
 
