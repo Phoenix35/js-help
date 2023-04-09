@@ -16,7 +16,7 @@ position: 0
   Check the age of pull requests/issues on its Github to see if the author(s) are responsive.
 - If it's __deprecated__, don't use it.  <https://imgur.com/dBN6gVc>
 
-Check if its **license** matches your needs (see License)
+Check if its **license** matches your needs (see What license?)
 
 A small list of bad packages and their alternatives
  - `request`. Use `node-fetch`. Since node v18, fetch is native
