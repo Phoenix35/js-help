@@ -10,6 +10,4 @@ If you are just beginning in JS, only some parts of [The Modern JavaScript tutor
 
 As well as 2 [primers](<https://nodejs.dev/en/learn/the-nodejs-event-emitter/>) on [events](<https://web.archive.org/web/20220318113645/https://nodejs.dev/learn/the-nodejs-events-module>), and [Websocket](<https://javascript.info/websocket>)
 
-Why fetch if you're going to use node.js? Because if you want to make requests to remote URLs, you will be using [node-fetch](<https://www.npmjs.com/package/node-fetch>) (native in node version => 18).
-
 Now you're ready to learn using [the only valid discord.js bot tutorial](<https://discordjs.guide/>), you're welcome.
