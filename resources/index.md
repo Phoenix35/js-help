@@ -11,8 +11,8 @@ description: A curated collection of resources to learn and stay up-to-date with
 ## Beginners
 
 - [The Modern Javascript Tutorial](<https://javascript.info/>)
-- [Eloquent Javascript (online)](<https://eloquentjavascript.net/>); [Paperback](<https://www.amazon.com/Eloquent-JavaScript-3rd-Introduction-Programming/dp/1593279507>)
-- **Only if you have a good programming knowledge background** [JavaScript for impatient programmers](<http://exploringjs.com/impatient-js/index.html>)
+- [Eloquent Javascript (online)](<https://eloquentjavascript.net/>) (4th Ed.; nothing before)
+- **Only if you have a good programming knowledge background** [JavaScript for impatient programmers](<https://exploringjs.com/impatient-js/>)
 
 Nothing more. Nothing less.
 
