@@ -11,27 +11,25 @@ Use an evergreen browser: [Mozilla Firefox](<https://www.mozilla.org/en-US/firef
 Install [DevDocs desktop](<https://github.com/egoist/devdocs-desktop/releases>) (by Egoist).  
 In "Preferences", enable following documentation
   - CSS
-  - Web APIs
-  - ESLint
-  - Git
   - HTML
   - HTTP
   - JavaScript
+  - Web APIs
+  - Git
   - Node.js
   - npm
-  - Support tables
 
-In "Offline Data", make sure to install all the documentation you enabled. It will be around 160 MB of data.  
+In "Offline Data", make sure to install all the documentation you enabled. It will be around 130 MB of data.  
 This will be your go-to reference, make sure to create an easily accessible shortcut to use it!
 
 This program is the desktop version of [DevDocs](<https://devdocs.io/>).  
-There is no need anymore to search through MDN, the node.js API, or kangax table/caniuse for example. This collects it all and delivers it in one place in a consistent formatting.
+There is no need anymore to search through MDN or the node.js API for example. This collects it all and delivers it in one place in a consistent formatting.
 
 Developers using Apple products may be interested in [Dash](<https://kapeli.com/dash>) as a powerful alternative.
 
 ## Node.js
 
-If not already done, install [Node.js](<https://nodejs.org/en/download/>). I prefer the latest version but you can install LTS if you want (v16 "Gallium" as of writing).  
+If not already done, install [Node.js](<https://nodejs.org/en/download/>). I prefer the latest version but you can install LTS if you want (v20 "Iron" as of writing).  
 You should spend some time learning how to use node.js and particularly npm after you've become familiar with JavaScript proper.
 
 ## Editor
