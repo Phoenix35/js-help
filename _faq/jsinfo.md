@@ -1,5 +1,5 @@
 ---
-title: What is necessary in JavaScriptinfo?
+title: How to begin in JS?
 position: 0
 ---
 
