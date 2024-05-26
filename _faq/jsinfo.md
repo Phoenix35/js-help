@@ -1,5 +1,5 @@
 ---
-title: What is necessary in JavaScript.info?
+title: What is necessary in JavaScriptinfo?
 position: 0
 ---
 
