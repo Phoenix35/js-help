@@ -20,7 +20,7 @@ position: 0
 - [Promises, async/await](<https://javascript.info/async>): **All but 11.3** (Promises chaining) **and 11.4** (Error handling with Promises)
 - [Generators, advanced iteration](<https://javascript.info/generators-iterators>): Optional but may be encountered if dealing with [streams](<https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream#async_iteration_of_a_stream_using_for_await...of>)
 - [Modules](<https://javascript.info/modules>): **All**
-- [Miscellaneous](<https://javascript.info/js-misc>): **14.4** [Reference Type](<(<https://javascript.info/reference-type>)>)
+- [Miscellaneous](<https://javascript.info/js-misc>): **14.4** [Reference Type](<https://javascript.info/reference-type>)
 
 ## [Part 2](<https://javascript.info/#tab-2>)
 
