@@ -34,5 +34,5 @@ If browser environment: **5.2** [Scripts: async, defer](<https://javascript.info
 ## [Part 3](<https://javascript.info/#tab-3>)
 
 - [Binary data, files](<https://javascript.info/binary>): **2.3** [Blob](<https://javascript.info/blob>)
-- [Network requests](<https://javascript.info/network>): **3.1** [Fetch](<https://javascript.info/fetch>); **3.5** [Fetch: Cross-Origin Requests](<https://javascript.info/fetch-crossorigin)<
+- [Network requests](<https://javascript.info/network>): **3.1** [Fetch](<https://javascript.info/fetch>); **3.5** [Fetch: Cross-Origin Requests](<https://javascript.info/fetch-crossorigin>)
 - [Regular expressions](<https://javascript.info/regular-expressions>): **All**. But never use RegExp to parse HTML
