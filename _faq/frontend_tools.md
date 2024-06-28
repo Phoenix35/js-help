@@ -1,5 +1,5 @@
 ---
-title: Angular, React, Vue.js, others?
+title: Angular, React, Vue, others?
 position: 0
 ---
 
